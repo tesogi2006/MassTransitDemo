@@ -11,7 +11,7 @@ namespace Publisher.Console
         {
             Log4NetLogger.Use();
             var bus = Bus.Factory.CreateUsingRabbitMq(x =>
-                x.Host(new Uri("rabbitmq://localhost/"), h => { })
+                x.Host(new Uri("rabbitmq://localhost/habesha"), h => { })
                 );
 
             var busHandle = bus.Start();
