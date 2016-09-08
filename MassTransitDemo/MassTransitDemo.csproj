@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C6B0BD77-C016-43F8-9CBD-A341D550478A}</ProjectGuid>
+    <ProjectGuid>{377C52EF-2AD1-4DFF-94F8-AB05CE7856A7}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Publisher.Console</RootNamespace>
-    <AssemblyName>Publisher.Console</AssemblyName>
+    <RootNamespace>MassTransitDemo</RootNamespace>
+    <AssemblyName>MassTransitDemo</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -81,7 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Contracts\Contracts.csproj">
-      <Project>{55B1EEEB-52CD-426F-9846-F327A8106CCA}</Project>
+      <Project>{D7EC6740-CF83-462A-8816-81A1A0947973}</Project>
       <Name>Contracts</Name>
     </ProjectReference>
   </ItemGroup>

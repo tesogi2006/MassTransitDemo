@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F137B941-66E5-4F94-8171-E9BB1F02148B}</ProjectGuid>
+    <ProjectGuid>{09EA7548-26B5-4CB8-9820-67DD35FD5DCE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Subscriber.Console</RootNamespace>
@@ -81,7 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Contracts\Contracts.csproj">
-      <Project>{55B1EEEB-52CD-426F-9846-F327A8106CCA}</Project>
+      <Project>{D7EC6740-CF83-462A-8816-81A1A0947973}</Project>
       <Name>Contracts</Name>
     </ProjectReference>
   </ItemGroup>
