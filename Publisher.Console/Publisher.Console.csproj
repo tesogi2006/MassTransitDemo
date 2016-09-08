@@ -7,8 +7,8 @@
     <ProjectGuid>{377C52EF-2AD1-4DFF-94F8-AB05CE7856A7}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MassTransitDemo</RootNamespace>
-    <AssemblyName>MassTransitDemo</AssemblyName>
+    <RootNamespace>Publisher.Console</RootNamespace>
+    <AssemblyName>Publisher.Console</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
