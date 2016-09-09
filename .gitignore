@@ -1,7 +1,6 @@
 *.dll
 Contracts/obj/
 *.nupkg
-MassTransitDemo.sln
 MassTransitDemo/bin/Debug/MassTransit.Log4NetIntegration.xml
 MassTransitDemo/bin/Debug/MassTransit.RabbitMqTransport.xml
 MassTransitDemo/bin/Debug/MassTransit.xml
