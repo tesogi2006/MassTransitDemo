@@ -18,7 +18,7 @@ namespace Subscriber.Console
             {
                 var host = x.Host(new Uri("rabbitmq://localhost/habesha"), h => { });
 
-                x.ReceiveEndpoint(host, "MassTransitDemo_TestSubscriber", e =>
+                x.ReceiveEndpoint(host, "MassTransitDemo_ConsoleSubscriber", e =>
                     e.Consumer<GraphDataConsumer>());
             });
 

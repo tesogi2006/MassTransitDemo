@@ -1,0 +1,6 @@
+﻿<div ng-controller="appCtrl as vm">
+    <h5>Data Points:</h5>
+    <ul ng-repeat="data in vm.data track by $index">
+        <li>({{data.pointX}}, {{data.pointY}})</li>
+    </ul>
+</div>
