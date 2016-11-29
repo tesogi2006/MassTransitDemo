@@ -50,3 +50,4 @@ Subscriber.Console/bin/Debug/MassTransit.RabbitMqTransport.xml
 Subscriber.Console/bin/Debug/Subscriber.Console.vshost.exe.config
 Subscriber.Console/bin/Debug/Subscriber.Console.vshost.exe.manifest
 Subscriber.Console/bin/Debug/log4net.xml
+*.suo

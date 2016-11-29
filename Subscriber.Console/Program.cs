@@ -19,7 +19,7 @@ namespace Subscriber.Console
                 var host = x.Host(new Uri("rabbitmq://localhost/habesha"), h => { });
 
                 x.ReceiveEndpoint(host, "MassTransitDemo_TestSubscriber", e =>
-                    e.Consumer<SampleMessageConsumer>());
+                    e.Consumer<GraphDataConsumer>());
             });
 
             var busHandle = bus.Start();

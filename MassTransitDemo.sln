@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriber.Console", "Subsc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{D7EC6740-CF83-462A-8816-81A1A0947973}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivePollerDemo", "..\MassTransitPublisher\LivePollerDemo\LivePollerDemo.csproj", "{B3C425E9-168F-4884-BB5B-7C04A5CC64E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D7EC6740-CF83-462A-8816-81A1A0947973}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7EC6740-CF83-462A-8816-81A1A0947973}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7EC6740-CF83-462A-8816-81A1A0947973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3C425E9-168F-4884-BB5B-7C04A5CC64E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C425E9-168F-4884-BB5B-7C04A5CC64E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C425E9-168F-4884-BB5B-7C04A5CC64E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C425E9-168F-4884-BB5B-7C04A5CC64E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

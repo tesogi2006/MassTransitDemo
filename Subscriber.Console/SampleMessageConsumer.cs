@@ -28,4 +28,16 @@ namespace Subscriber.Console
             return Task.FromResult(0);
         }
     }
+
+
+    class GraphDataConsumer : IConsumer<IGraphData>
+    {
+        public Task Consume(ConsumeContext<IGraphData> context)
+        {
+            var data = context.Message;
+            System.Console.WriteLine("New Data Point: [{0}, {1}]", data.PointX, data.PointY);
+
+            return Task.FromResult(0);
+        }
+    }
 }
