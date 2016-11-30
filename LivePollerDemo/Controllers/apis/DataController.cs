@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using Contracts;
 using LivePollerDemo.Models;
 using Newtonsoft.Json;
@@ -8,6 +9,7 @@ using Newtonsoft.Json.Serialization;
 
 namespace LivePollerDemo.Controllers.apis
 {
+    [EnableCors(origins: "http://localhost:8888", headers:"*", methods:"*")]
     public class DataController : ApiController
     {
         private readonly Random _rand = new Random();

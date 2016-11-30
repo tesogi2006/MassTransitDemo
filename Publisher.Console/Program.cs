@@ -19,6 +19,7 @@ namespace Publisher.Console
 
             var busHandle = bus.Start();
             var text = "";
+            int counter = 0;
 
             while (text != "quit")
             {
@@ -33,6 +34,7 @@ namespace Publisher.Console
 
                 var data = new GraphData()
                 {
+                    Id = ++counter,
                     PointX = rand.Next(1, 1000),
                     PointY = rand.Next(1, 1000)
                 };

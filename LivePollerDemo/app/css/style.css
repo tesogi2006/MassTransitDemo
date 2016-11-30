@@ -1,0 +1,15 @@
+﻿.data-point {
+    width: 80px;
+    background: beige;
+    margin: 8px;
+    float: left;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #caef72;
+}
+
+.graph-plot {
+    width: 500px;
+    height: 250px;
+    border: 1px solid #d0e7ff;
+}
